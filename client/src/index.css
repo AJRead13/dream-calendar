@@ -7,6 +7,21 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+  /* color variables should be soft and "dream-like" */
+  /* adjust colors as needed */
+  --color-text: #242424;
+  --color-background: #ffffff;
+  --color-light: #f9f9f9;
+  --color-medium: #e0e0e0;
+  --color-dark: #aeaeae;
+  --color-accent: #646cff;
+
+/* Borders should all be the same as well, then with soft curves */
+  --border-radius: 8px;
+  --border-width: 1px;
+  --border-color: #e0e0e0;
+  --border: var(--border-width) solid var(--border-color);
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
