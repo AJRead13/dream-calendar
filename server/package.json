@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node config/seeds.js",
+    "watch": "nodemon"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +20,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
