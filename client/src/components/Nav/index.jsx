@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav({ currentPage }) {
-  const pages = ['calendar', 'contact', 'dreams', 'login'];
+  const pages = ['calendar', 'contact', 'dreams', 'login', 'signup', 'profile', 'feed'];
 
   return (
     <nav>
@@ -11,7 +11,7 @@ function Nav({ currentPage }) {
           className={`mx-5 ${currentPage === '/' && 'navActive'}`}
           key="about"
         >
-          <Link to="/">About</Link>
+          <Link to="/">Home</Link>
         </li>
         {pages.map((Page) => (
           <li
