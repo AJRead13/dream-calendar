@@ -1,8 +1,8 @@
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Calendar from "./components/Calendar";
-// import Footer from "./components/Footer";
-// import Page from "./components/Page";
+import Footer from "./components/Footer";
+import Page from "./components/Page";
 import { useLocation } from "react-router-dom";
 import './App.css'
 
