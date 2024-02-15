@@ -15,5 +15,10 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "@mongodb-js/saslprep": "^1.1.4",
+    "apollo-server-express": "^3.13.0",
+    "mongodb": "^6.3.0"
   }
 }
